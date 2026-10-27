@@ -1,0 +1,6 @@
+{
+  "https": true,
+  "status": 200,
+  "package": "@deepseek-ai/dsh",
+  "version": "0.2.1-rc.2"
+}

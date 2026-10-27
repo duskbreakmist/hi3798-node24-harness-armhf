@@ -1,0 +1,21 @@
+{
+  "command": [
+    "/usr/local/bin/dsh-armhf",
+    "web",
+    "--host",
+    "127.0.0.1",
+    "--port",
+    "3080",
+    "--no-open"
+  ],
+  "url": "http://127.0.0.1:3080/",
+  "ready": true,
+  "status": 200,
+  "contentType": "text/html; charset=utf-8",
+  "bytes": 37512,
+  "html": true,
+  "authenticated": true,
+  "exitAfterCleanup": 0,
+  "elapsedSeconds": 74.52,
+  "maxRssKiB": 176956
+}

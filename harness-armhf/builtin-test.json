@@ -1,0 +1,31 @@
+{
+  "node": "v24.22.1",
+  "arch": "arm",
+  "results": [
+    {
+      "name": "require-builtin",
+      "info": {
+        "mode": "nodeabi",
+        "product": "require-builtin",
+        "backend": "nodeabi",
+        "abi": "node-v137"
+      },
+      "cjs": true,
+      "esm": true,
+      "denied": null
+    },
+    {
+      "name": "internal-loader",
+      "info": {
+        "mode": "nodeabi",
+        "product": "internal-loader",
+        "backend": "nodeabi",
+        "abi": "node-v137"
+      },
+      "cjs": true,
+      "esm": true,
+      "denied": "Unsupported/disallowed-target"
+    }
+  ],
+  "allPassed": true
+}

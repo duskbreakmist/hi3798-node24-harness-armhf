@@ -1,0 +1,13 @@
+hi3798-board
+root
+/root
+v24.22.1
+11.19.1
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root        32G   15G   16G  48% /
+               total        used        free      shared  buff/cache   available
+Mem:             974         430         385          14         203         543
+Swap:            511         328         183
+NRestarts=0
+ActiveState=active
+SubState=running

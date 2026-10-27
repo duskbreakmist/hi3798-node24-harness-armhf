@@ -1,0 +1,66 @@
+{
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm"
+  ],
+  "bugs": {
+    "url": "https://github.com/Koromix/koffi/issues"
+  },
+  "dist": {
+    "shasum": "fd33bef134b0634779cd1a189b2d54fe1b1a1c53",
+    "tarball": "https://registry.npmjs.org/@koromix/koffi-linux-arm/-/koffi-linux-arm-3.3.4.tgz",
+    "fileCount": 4,
+    "integrity": "sha512-+vFvkVUPQq2unMm1iY3ITJJEIeGFuVVdVe0ozNI2Al42hPohjyC9NUeTFaTPkysxH7YEJSM18GGgA9/LvPqPfw==",
+    "signatures": [
+      {
+        "sig": "MEUCIQCoZnT2dYj9eei3aqQ2/Lk5UeXgsQ4vZey9ExdKjIJ7lQIgSH990BCMOnpLo2dyBe+1BpC/p0E6LAYqHTBJvnpA8xI=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "sig": "MEUCIGIrfjYW2WGrdhwFCQqnN2Rj9yzbTw1qPqQEuZFKGTeYAiEAjrHMINIS/NIFxHD4wryUKgPFd2jlvbm4vgkQfQiTOzw=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "unpackedSize": 1011697
+  },
+  "main": "./index.js",
+  "name": "@koromix/koffi-linux-arm",
+  "_from": "file:koromix-koffi-linux-arm-3.3.4.tgz",
+  "author": {
+    "url": "https://koromix.dev/",
+    "name": "Niels Martign\u00e8ne",
+    "email": "niels.martignene@protonmail.com"
+  },
+  "funding": "https://liberapay.com/Koromix",
+  "license": "MIT",
+  "_npmUser": {
+    "name": "koromix",
+    "email": "niels.martignene@protonmail.com"
+  },
+  "homepage": "https://koffi.dev/",
+  "_resolved": "/home/niels/Code/shadow/bin/Koffi/packages/koromix-koffi-linux-arm-3.3.4.tgz",
+  "_integrity": "sha512-+vFvkVUPQq2unMm1iY3ITJJEIeGFuVVdVe0ozNI2Al42hPohjyC9NUeTFaTPkysxH7YEJSM18GGgA9/LvPqPfw==",
+  "repository": {
+    "url": "git+https://github.com/Koromix/koffi.git",
+    "type": "git"
+  },
+  "_npmVersion": "11.20.0",
+  "description": "Fast and easy-to-use dynamic C FFI (foreign function interface) for Node.js (@koromix/koffi-linux-arm)",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "koromix",
+      "email": "niels.martignene@protonmail.com"
+    }
+  ],
+  "_nodeVersion": "26.12.1",
+  "_hasShrinkwrap": false,
+  "_npmOperationalInternal": {
+    "tmp": "tmp/koffi-linux-arm_3.3.4_1792857003321_0.8674922513086192",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "@koromix/koffi-linux-arm@3.3.4",
+  "version": "3.3.4"
+}

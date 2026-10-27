@@ -1,0 +1,67 @@
+{
+  "node": "v24.22.1",
+  "arch": "arm",
+  "results": [
+    {
+      "name": "published-js-builtin-loader",
+      "pass": true,
+      "details": {
+        "mode": "nodeabi",
+        "product": "require-builtin",
+        "backend": "nodeabi",
+        "abi": "node-v137",
+        "bindingPath": "/home/boarduser/deepseek-harness-armhf/node_modules/node-addon-require-builtin/build/nodeabi/node-v137-linux-arm-gnu/require_builtin.node",
+        "bindingSource": "local-build",
+        "localBindingPath": "/home/boarduser/deepseek-harness-armhf/node_modules/node-addon-require-builtin/build/nodeabi/node-v137-linux-arm-gnu/require_builtin.node",
+        "optionalPackageName": "node-addon-require-builtin-linux-arm-gnu",
+        "optionalBinaryRelativePath": "prebuilt/linux-arm-gnu-nodeabi-v137.node",
+        "platformPackageSuffix": "linux-arm-gnu"
+      }
+    },
+    {
+      "name": "koffi-override",
+      "pass": true,
+      "details": {
+        "version": "3.3.4"
+      }
+    },
+    {
+      "name": "sharp-png",
+      "pass": true,
+      "details": {
+        "version": "0.35.5",
+        "libvips": "8.18.7"
+      }
+    },
+    {
+      "name": "published-pty-wrapper",
+      "pass": true,
+      "details": {
+        "output": "harness-armhf-pty-ok"
+      }
+    },
+    {
+      "name": "published-flock-wrapper",
+      "pass": true,
+      "details": {
+        "contentionRejected": true,
+        "release": true
+      }
+    },
+    {
+      "name": "ripgrep-platform-package",
+      "pass": true,
+      "details": {
+        "path": "/home/boarduser/deepseek-harness-armhf/node_modules/@vscode/ripgrep-linux-arm/bin/rg",
+        "version": "ripgrep 13.0.0 (rev af6b6c543b)"
+      }
+    }
+  ],
+  "allPassed": true,
+  "sandbox": {
+    "landlock": "unusable",
+    "bwrapExit": 1,
+    "bwrapError": "bwrap: Can't mount devpts on /newroot/dev/pts: Operation not permitted\n"
+  },
+  "maxRssKiB": 59916
+}

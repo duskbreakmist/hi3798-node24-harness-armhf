@@ -1,0 +1,13 @@
+{
+  "runtime": {
+    "version": "v24.22.1",
+    "arch": "arm",
+    "abi": "137"
+  },
+  "copies": {
+    "/home/boarduser/deepseek-harness-armhf/node_modules/node-addon-require-builtin/build/nodeabi/node-v137-linux-arm-gnu/require_builtin.node": "a5f98ac02a8001596a3c74916897b3572af8c89ee723157b92dde3681cc64165",
+    "/home/boarduser/deepseek-harness-armhf/node_modules/node-pty/build/Release/pty.node": "bdb61c08dbb3a06007f28d47427c58d33db06a340cf053e8b0c2178230c1d3dc"
+  },
+  "platform": "/home/boarduser/deepseek-harness-armhf/vendor/node-addon-system-linux-arm",
+  "sandboxPolicy": "unchanged; actual kernel probe decides availability"
+}

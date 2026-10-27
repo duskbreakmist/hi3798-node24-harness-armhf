@@ -1,0 +1,17 @@
+{
+  "command": [
+    "arm-linux-gnueabihf-gcc",
+    "-std=c11",
+    "-O2",
+    "-mcpu=cortex-a7",
+    "-mfpu=neon-vfpv4",
+    "-mfloat-abi=hard",
+    "-fstack-protector-strong",
+    "/node24-work/dsh-audit/@deepseek-ai__node-addon-system/package/src/main.c",
+    "-o",
+    "/node24-work/harness-armhf/node-addon-system-linux-arm/bin/landlock-run"
+  ],
+  "exit": 0,
+  "output": "",
+  "sourceSha256": "0b3f13a6d19b809ea5a895a4873fe94cdea02471f928f214266dfd0a22a949b5"
+}

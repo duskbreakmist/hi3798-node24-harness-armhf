@@ -1,0 +1,5 @@
+hi3798-board
+root
+/root
+bubblewrap 0.8.0
+bwrap_nonroot_exit=1

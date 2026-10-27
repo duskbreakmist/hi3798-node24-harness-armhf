@@ -1,0 +1,17 @@
+--- a/deps/zlib/zlib.gyp
++++ b/deps/zlib/zlib.gyp
+@@ -71,7 +71,13 @@
+             ['OS!="ios"', {
+               'conditions': [
+                 ['OS!="win" and clang==0', {
+-                  'cflags': [ '-march=armv8-a+aes+crc' ],
++                  'conditions': [
++                    ['target_arch=="arm"', {
++                      'cflags': [ '-march=armv8-a+crypto+crc' ],
++                    }, {
++                      'cflags': [ '-march=armv8-a+aes+crc' ],
++                    }],
++                  ],
+                 }],
+                 ['OS=="android"', {
+                   'defines': [ 'ARMV8_OS_ANDROID' ],

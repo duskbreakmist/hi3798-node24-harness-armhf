@@ -1,0 +1,8 @@
+{
+  "node_sha256": "89af274cbc4b154e593ef5a714a7004e30b35e7b9e56202c54e97597d4e63997",
+  "prefix": "/opt/node-v24.22.1-armhf",
+  "npm_version": "11.19.1",
+  "core_tests_passed": true,
+  "native_tests": "/workspace/hi3798-node24-harness-armhf/reports/2026-10-26/node24-armhf/board-native-candidates.json",
+  "https_test": "/workspace/hi3798-node24-harness-armhf/reports/2026-10-26/node24-armhf/board-https.json"
+}

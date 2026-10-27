@@ -1,0 +1,12 @@
+{
+  "name": "hi3798-harness-armhf",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@deepseek-ai/dsh": "0.2.1-rc.2",
+    "@deepseek-ai/node-addon-system-linux-arm": "file:vendor/node-addon-system-linux-arm"
+  },
+  "overrides": {
+    "koffi": "3.3.4"
+  }
+}

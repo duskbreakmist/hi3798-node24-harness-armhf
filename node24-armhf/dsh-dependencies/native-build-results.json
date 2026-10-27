@@ -1,0 +1,44 @@
+[
+  {
+    "command": [
+      "arm-linux-gnueabihf-g++",
+      "-mcpu=cortex-a7",
+      "-mfpu=neon-vfpv4",
+      "-mfloat-abi=hard",
+      "-std=c++17",
+      "-O2",
+      "-fPIC",
+      "-shared",
+      "-pthread",
+      "-fstack-protector-strong",
+      "-DNAPI_CPP_EXCEPTIONS",
+      "-DNAPI_VERSION=8",
+      "-DNODE_GYP_MODULE_NAME=pty",
+      "-I/node24-work/node-v24.22.1/src",
+      "-I/node24-work/dsh-audit/node-addon-api/package",
+      "/node24-work/dsh-audit/node-pty/package/src/unix/pty.cc",
+      "-lutil",
+      "-o",
+      "/node24-work/native-validation/pty.node"
+    ],
+    "exit": 0,
+    "output": ""
+  },
+  {
+    "command": [
+      "arm-linux-gnueabihf-gcc",
+      "-std=c11",
+      "-O2",
+      "-fPIC",
+      "-shared",
+      "-fvisibility=hidden",
+      "-DNAPI_VERSION=8",
+      "-I/node24-work/node-v24.22.1/src",
+      "/node24-work/deepseek-harness-master/native/system/packages/entry/src/flock.c",
+      "-o",
+      "/node24-work/native-validation/flock.node"
+    ],
+    "exit": 0,
+    "output": ""
+  }
+]

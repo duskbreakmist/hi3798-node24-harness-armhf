@@ -1,0 +1,30 @@
+{
+  "base": "/home/builder/build_nodejs_arm32",
+  "builtinOriginalSourceUrl": "https://github.com/deepseek-ai/dsh-node-addon-require-builtin/archive/refs/heads/master.tar.gz",
+  "builtinSourceNote": "Pinned original archive included; do not redownload moving master for byte-identical reproduction.",
+  "nodeHeadersUrl": "https://nodejs.org/dist/v24.22.1/node-v24.22.1-headers.tar.gz",
+  "nodeAddonApiVersion": "8.9.0",
+  "systemPublishedVersion": "0.1.2",
+  "files": {
+    "dsh-require-builtin-source.tar.gz": {
+      "bytes": 147484,
+      "sha256": "0aab3f3b2f2350503fe437794f26ae68cce326ee8bac3c1a644e7586b8acbcdd"
+    },
+    "harness-armhf/public-headers/node-v24.22.1-headers.tar.gz": {
+      "bytes": 10292286,
+      "sha256": "322e0a27db9088093ab8347bdc8c7e0aaa21dc9ed548390bf06b394494c09267"
+    },
+    "harness-armhf/node-addon-api/package.tgz": {
+      "bytes": 61748,
+      "sha256": "19b87e2ce3a77fec0121ac97d7db088aae28aacfff481adab50d5f61b70e68f4"
+    },
+    "dsh-audit/@deepseek-ai__node-addon-system/package/src/main.c": {
+      "bytes": 11757,
+      "sha256": "0b3f13a6d19b809ea5a895a4873fe94cdea02471f928f214266dfd0a22a949b5"
+    },
+    "dsh-audit/@deepseek-ai__node-addon-system/package/src/flock.c": {
+      "bytes": 5744,
+      "sha256": "c1aa773c7a62b03ce3973156b928f41773fef9407afd79d71b2f625b5616421f"
+    }
+  }
+}

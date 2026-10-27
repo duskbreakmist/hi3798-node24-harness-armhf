@@ -1,0 +1,54 @@
+[
+  {
+    "name": "@koromix/koffi-linux-arm",
+    "version": "3.3.4",
+    "tarball": "https://registry.npmjs.org/@koromix/koffi-linux-arm/-/koffi-linux-arm-3.3.4.tgz",
+    "sha256": "42be31d62d183f3c0d66a6bcc33c819afc817b80d149a170bc5f8af3d3d56d02",
+    "binaries": [
+      {
+        "path": "package/linux_armhf/koffi.node",
+        "file": "ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, BuildID[sha1]=1ce82f7ff6a794fa9a5f1e9b83e46991819463df, stripped",
+        "max_glibc": "GLIBC_2.34"
+      }
+    ]
+  },
+  {
+    "name": "@img/sharp-linux-arm",
+    "version": "0.35.5",
+    "tarball": "https://registry.npmjs.org/@img/sharp-linux-arm/-/sharp-linux-arm-0.35.5.tgz",
+    "sha256": "f223f355725a7046548e3bb4be4d0f82c30a2b1c170289fd714679ad1441152c",
+    "binaries": [
+      {
+        "path": "package/lib/sharp-linux-arm-0.35.5.node",
+        "file": "ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, BuildID[sha1]=156c7f7265803a4a3f8ca48abd4be1b025a6f9d4, stripped",
+        "max_glibc": "GLIBC_2.34"
+      }
+    ]
+  },
+  {
+    "name": "@img/sharp-libvips-linux-arm",
+    "version": "1.3.4",
+    "tarball": "https://registry.npmjs.org/@img/sharp-libvips-linux-arm/-/sharp-libvips-linux-arm-1.3.4.tgz",
+    "sha256": "782aa1175daff0e9f7846f404daaa07eaea8c91903bc6b68b31e2a6227e6bba8",
+    "binaries": [
+      {
+        "path": "package/lib/libvips-cpp.so.8.18.7",
+        "file": "ELF 32-bit LSB shared object, ARM, EABI5 version 1 (SYSV), dynamically linked, BuildID[sha1]=1e8a8429b779e5d847f4cd145b4e1351efbbd7e9, stripped",
+        "max_glibc": "GLIBC_2.36"
+      }
+    ]
+  },
+  {
+    "name": "@vscode/ripgrep-linux-arm",
+    "version": "1.18.0",
+    "tarball": "https://registry.npmjs.org/@vscode/ripgrep-linux-arm/-/ripgrep-linux-arm-1.18.0.tgz",
+    "sha256": "88e14276bf200d1e55ea96e81c09fccf02abddffcaaca7ea24c0e3b9c7fc7ae2",
+    "binaries": [
+      {
+        "path": "package/bin/rg",
+        "file": "ELF 32-bit LSB pie executable, ARM, EABI5 version 1 (SYSV), dynamically linked, interpreter /lib/ld-linux-armhf.so.3, BuildID[sha1]=b50c66decdfc98c40ce47187a9afcbf4e52b6bc8, for GNU/Linux 3.2.0, stripped",
+        "max_glibc": "GLIBC_2.28"
+      }
+    ]
+  }
+]

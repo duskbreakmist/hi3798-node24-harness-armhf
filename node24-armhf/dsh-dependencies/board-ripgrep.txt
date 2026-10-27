@@ -1,0 +1,5 @@
+hi3798-board
+root
+/root
+ripgrep 13.0.0 (rev af6b6c543b)
+-SIMD -AVX (compiled)
